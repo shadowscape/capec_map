@@ -278,7 +278,6 @@
     {
         "CAPEC ID": "141",
         "ID": "Cache Poisoning",
-        "group": 13
         "Abstraction": "Standard",
         "Status": "Draft",
         "Description": "An attacker exploits the functionality of cache technologies to cause specific data to be cached that aids the attackers' objectives. This describes any attack whereby an attacker places incorrect or harmful material in cache. The targeted cache can be an application's cache (e.g. a web browser cache) or a public cache (e.g. a DNS or ARP cache). Until the cache is refreshed, most applications or clients will treat the corrupted cache value as valid. This can lead to a wide range of exploits including redirecting web browsers towards sites that install malware and repeatedly incorrect calculations based on the incorrect value.",
@@ -1471,6 +1470,7 @@
         "Related Weaknesses": "::427::",
         "Taxonomy Mappings": "TAXONOMY NAME:ATTACK:ENTRY ID:1574.001:ENTRY NAME:Hijack Execution Flow:DLL search order hijacking::::TAXONOMY NAME:ATTACK:ENTRY ID:1574.004:ENTRY NAME:Hijack Execution Flow: Dylib Hijacking::::TAXONOMY NAME:ATTACK:ENTRY ID:1574.008:ENTRY NAME:Hijack Execution Flow: Path Interception by Search Order Hijacking::",
         "Notes": ""
+    },
     {
         "CAPEC ID": "473",
         "ID": "Signature Spoof",
@@ -2635,7 +2635,7 @@
         "Example Instances": "",
         "Related Weaknesses": "::284::",
         "Taxonomy Mappings": "TAXONOMY NAME:ATTACK:ENTRY ID:1562.001:ENTRY NAME:Impair Defenses: Disable or Modify Tools::::TAXONOMY NAME:ATTACK:ENTRY ID:1562.002:ENTRY NAME:Impair Defenses: Disable Windows Event Logging::::TAXONOMY NAME:ATTACK:ENTRY ID:1562.004:ENTRY NAME:Impair Defenses: Disable or Modify System Firewall::::TAXONOMY NAME:ATTACK:ENTRY ID:1562.007:ENTRY NAME:Impair Defenses: Disable or Modify Cloud Firewall::::TAXONOMY NAME:ATTACK:ENTRY ID:1562.008:ENTRY NAME:Impair Defenses: Disable Cloud Logs::::TAXONOMY NAME:ATTACK:ENTRY ID:1562.009:ENTRY NAME:Impair Defenses: Safe Mode Boot::",
-        "Notes": "",
+        "Notes": ""
     },
     {
         "CAPEC ID": "579",
@@ -3779,7 +3779,7 @@
         "Example Instances": "::In early 2019, Microsoft patched a critical vulnerability (CVE-2019-0547) in the Windows DHCP client which allowed remote code execution via crafted DHCP OFFER packets. [REF-739]::",
         "Related Weaknesses": "::923::",
         "Taxonomy Mappings": "TAXONOMY NAME:ATTACK:ENTRY ID:1557.003:ENTRY NAME:Adversary-in-the-Middle: DHCP Spoofing::",
-        "Notes": "",
+        "Notes": ""
     },
     {
         "CAPEC ID": "698",
@@ -3801,7 +3801,7 @@
         "Example Instances": "::In January 2018, Palo Alto's Unit 42 reported that a malicious Internet Information Services (IIS) extension they named RGDoor was used to create a backdoor into several Middle Eastern government organizations, as well as a financial institution and an educational institution. This malware was used in conjunction with the TwoFace webshell and allowed the adversaries to upload/download files and execute unauthorized commands. [REF-740]::In December 2018, it was reported that North Korea-based APT Kimusky (also known as Velvet Chollima) infected numerous legitimate academic organizations within the U.S., many specializing in biomedical engineering, with a malicious Google Chrome extension. Dubbed Operation STOLEN PENCIL, the attack entailed conducting spear-phishing attacks to trick victims into installing a malicious PDF reader named Auto Font Manager. Once installed, the malware allowed adversaries to steal cookies and site passwords, as well as forward emails from some compromised accounts. [REF-741]::",
         "Related Weaknesses": "::507::829::",
         "Taxonomy Mappings": "TAXONOMY NAME:ATTACK:ENTRY ID:1176:ENTRY NAME:Browser Extensions::::TAXONOMY NAME:ATTACK:ENTRY ID:1505.004:ENTRY NAME:Server Software Component: IIS Components::",
-        "Notes": "",
+        "Notes": ""
     },
     {
         "CAPEC ID": "70",

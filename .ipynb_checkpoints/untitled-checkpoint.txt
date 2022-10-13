@@ -1,0 +1,1 @@
+label=['name','id','abstraction', 'status', 'Description', 'Alternate Terms', 'Likelihood of Attack', 'Typical Severity', 'Related Attack Patterns', 'Execution Flow', 'Prerequisites', 'Skills Required', 'Resources Required', 'Indicators', 'Consequenses', 'Mitigations', 'Example Instances', 'Related Weaknesses', 'Taxonomy Mappings', 'Notes'], title=[
